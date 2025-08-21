@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta-foto {
+  width: 95%;
+}
+
+.tarjeta-foto img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-banner{
+  height: 100vh;
+  margin-bottom: 2%;
+  background-color: rgb(251, 251, 197);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-banner h1{
+  font-size: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-banner p{
+  font-size: 1em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .galeria {
+    flex-direction: row;
+  }
+  .tarjeta-foto {
+      width: 31%;
+    }
+
+  .hero-banner h1{
+  font-size: 5em;
+}
+.hero-banner p{
+  font-size: 3em;
+
+}
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscripción</title>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div>
+        <label for="nombreCompleto">Nombre Completo:</label>
+        <input type="text" id="nombreCompleto" name="nombre" required />
+      </div>
+
+      <div>
+        <label for="emailUsuario">Correo Electrónico:</label>
+        <input type="email" id="emailUsuario" name="email" required />
+      </div>
+
+      <div>
+        <label for="password">Crear Contraseña:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <div>
+        <label for="talleres">Taller de Interés:</label>
+        <select name="talleres" id="talleres">
+          <option value="">taller 1</option>
+          <option value="">taller 2</option>
+          <option value="">taller 3</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="asistencia">Tipo de asistencia:</label>
+        <input
+          type="radio"
+          id="presencial"
+          name="asistencia"
+          value="Presencial"
+          required
+        />
+        <label for="presencial">Presencial</label>
+
+        <input
+          type="radio"
+          id="virtual"
+          name="asistencia"
+          value="Virtual"
+          required
+        />
+        <label for="virtual">Virtual</label>
+      </div>
+
+      <div>
+        <label for="checkbox">Terminos y Condiciones</label>
+        <input type="checkbox" id="checkbox" name="checkbox" required />
+      </div>
+
+      <div>
+        <label for="comments">Comentarios adicionales</label>
+        <textarea name="comments" id="comments" rows="5"></textarea>
+      </div>
+
+      <button type="submit">Inscribirme</button>
+    </form>
+  </body>
+</html>

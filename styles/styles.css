@@ -1,0 +1,17 @@
+h1{
+    background-color: rgb(245, 149, 224);
+}
+
+.fondo-h2{
+    background-color: red;
+    color: white;
+} 
+
+#nashe{
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h3{
+    text-decoration: underline;
+}
